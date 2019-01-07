@@ -13,10 +13,8 @@ render(){
   return (  <footer class="fixed-bottom footer">
   <div class="container-fluid">
   <div class="row">
-  <div class="col-md-6 text-center">
-      <span class="float-md-left">sponsorparentsgreencard.com Emeryville,CA</span>
-  </div>
-  <div class="col-md-6 text-center">
+  <div class="col-md-12 text-center">
+      <span >sponsorparentsgreencard.com Emeryville,CA</span>
       <div class="float-md-right">
       <a href='mailto:asajnani@gmail.com'  target="_blank" > <FontAwesomeIcon icon={faEnvelope} size="lg"/></a>
       &nbsp;
@@ -27,8 +25,7 @@ render(){
       <a href='http://www.twitter.com'  target="_blank" ><FontAwesomeIcon icon={['fab', 'twitter']}  size="lg"/></a>
       </div>
   </div>
-  <hr/>
-    <hr/>
+  &nbsp;
 </div>
   </div>
 </footer>)
